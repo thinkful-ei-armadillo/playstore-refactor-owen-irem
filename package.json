@@ -1,20 +1,33 @@
 {
-  "name": "playStore",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon app",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.18.10"
-  },
-  "dependencies": {
-    "express": "^4.16.4",
-    "morgan": "^1.9.1"
-  }
+	"name": "playstore-refactor-owen-irem",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node server",
+		"debug": "ndb node server",
+		"dev": "nodemon server",
+		"test": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thinkful-ei-armadillo/playstore-refactor-owen-irem.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/thinkful-ei-armadillo/playstore-refactor-owen-irem/issues"
+	},
+	"homepage": "https://github.com/thinkful-ei-armadillo/playstore-refactor-owen-irem#readme",
+	"dependencies": {
+		"express": "^4.16.4",
+		"morgan": "^1.9.1"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^6.0.0",
+		"nodemon": "^1.18.10",
+		"supertest": "^3.4.2"
+	}
 }
